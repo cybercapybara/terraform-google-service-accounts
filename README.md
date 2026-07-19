@@ -8,7 +8,7 @@ from a map, optionally issues keys, and grants project-level roles.
 
 ```hcl
 module "service_accounts" {
-  source = "github.com/cybercapybara/terraform-google-service-accounts"
+  source = "github.com/moveeeax/terraform-google-service-accounts"
 
   project_id = var.project_id
 
